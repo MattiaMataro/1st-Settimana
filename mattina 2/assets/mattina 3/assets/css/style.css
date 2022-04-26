@@ -1,0 +1,35 @@
+p {
+    color: green; size: 25px; font-style: italic;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%; /* il 100% equivale alla grandezza standard del browser */ 
+}
+ul,ol {
+    font-weight: bold;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: lightblue;
+    text-decoration: underline;
+
+}
+
+.sezione_speciale {
+    color: lightblue;
+    border: 2px ;
+}
+
+.Form_anagrafica {
+    background-color: lightgreen;
+    padding: 5px;
+    /* margin: 3px;
+    margin-top/left/right/bottom: xpx ;
+    margin: xpx, ypx, apx, bpx;
+    */
+}

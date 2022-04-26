@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="la mia prima pagina on HTML">
+    <title>Pagina HTML</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+
+  <div class="sezione_speciale">
+        <h1>Web developer in 3 mesi. Si. Può. Fare.</h1>
+        <p>Breve e intenso. <strong>Come le sfide più appassionanti</strong>. Il corso EPICODE è un bootcamp. Impari tanto, bene e
+            velocemente. Fai pratica come se non ci fosse un domani. Ed è tutto online. In una parola: epico.</p>
+    
+        <h2>VOGLIO FARLO</h2>
+  </div>
+
+  <a href="servizi/corsi_da_casa.html" title="Corsi da casa" > Corsi da casa</a> <!-- "corsi da casa" è il testo cliccabile che porta al sito scelto-->
+
+
+
+    <ul>
+        <li>prima frase</li>
+        <li>seconda frase</li>
+        <li>terza frase</li>
+
+    </ul>
+
+    <ol>
+        <li>prima frase</li>
+        <li>seconda frase</li>
+        <li>terza frase</li>
+
+    </ol>
+
+
+    <p>Mario Rossi</p>
+
+    <dl>
+        <dt>studia da dove vuoi</dt>
+        <dd>da casa</dd>
+        <dd>da scuola</dd>
+        <dd>da dove vuoi</dd>
+    </dl>
+
+
+    <img src="assets/img/barca.jpg" alt="La mia barca ormeggiata" width="275" height="183"><br>
+
+   <a href="https://www.epicode.it" title="visita il nostro sito ufficiale" target="_blank"> Epicode</a> <!-- il target in quetsa stringa serve per aprire il sito in una nuova scheda--> <br>
+
+<img src="https://m.media-amazon.com/images/I/61nMXfy2o6L._AC_SX425_.jpg" alt="Immagine media-amazon">
+
+
+
+
+        <table border="1" >            <!-- creazione di una tabella-->
+            <caption>titolo di tabella</caption>       <!-- creazione del titolo di una tabella--> 
+    
+
+<thead>
+    <tr>
+        <th>Nome</th>
+        <th>età</th>
+        <th>Anno</th>
+        
+    </tr>
+
+</p>  thead 
+  <tbody>
+        <tr>
+            <td>Mario Rossi</td>        <!--inserimento dei dati in una tabella-->
+            <td>27</td>
+            <td rowspan="3" > 2021 </td>  <!-- il rowspan serve per avere il 2021 uguale per tutti gli altri dati inseriti  -->
+        </tr>
+        <tr>
+            <td>Luca Esposito</td>
+            <td>21</td>
+        </tr>
+  </tbody>
+
+  <tfoot>
+      <tr>
+          <td>Media presenze:</td>
+          <td colspan="2">29.5</td>
+      </tr>
+  </tfoot>
+
+</table>
+
+<h1>The form element</h1>
+
+<form action="/action_page.php" class="Form_anagrafica">
+
+
+      <fieldset>
+          <legend>Anagrafica</legend>
+          <label for="primonome">Nome:</label>
+          <input type="text" id="primonome" name="primonome" placeholder="metti il tuo nome" maxlength="5" required><br> 
+           <!-- maxlenght è lunghezza massima; required serve per obbligare l'utente a compilare il campo; input type serve per settare cosa richiere all'utente; label for setta un etichetta; name abbina l'etichetta al campo-->
+
+          <label for="lname">Cognome:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+      </fieldset>
+
+
+
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+
+<form action="/action_page.php">
+
+    <input type="checkbox" name="musica" value="Rock"> Rock
+    <input type="checkbox" name="musica" checked> Pop
+    <input type="checkbox" name="musica" value="Jazz">
+
+    <hr>
+    <input type="radio" name="musica" value="Rock"> Rock
+    <input type="radio" name="musica" checked> Pop
+    <input type="radio" name="musica" value="Jazz">
+
+    <hr>
+
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+
+
+
+
+</body>
+
+</html>

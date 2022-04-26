@@ -1,0 +1,83 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    text-align: center;  
+    color: grey; 
+    margin-right: 0cm;
+    margin-left: 0cm;
+}
+    header {
+    text-align: center;
+    margin: auto;
+    border: 0em;
+    background-color: black;
+    padding: 20px 20px 35px 20px;
+    
+}
+
+.font_titolo {
+    font-family: 'Montserrat', sans-serif;;
+    color: #25a2c3; 
+    font-size: 30px;  
+}
+
+
+#prima_sezione {
+    background-image: url(../images/banner.jpg); 
+    background-size: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#foto_cerchio {
+    border-radius: 100%;
+    width: 100%;
+}
+
+#button {
+    background-color: #e22d0e;
+    padding: 5px 20px ;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+a {
+    color: white;
+}
+
+article {
+    background-color: #e22d0e;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+footer {
+    background-color:#25a2c3 ;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#pc {
+    border-left: solid grey 1px;
+    border-right: solid grey 1px;
+    border-bottom: solid grey 1px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 100%;
+}
+
+hr {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.icon:before {
+    font-family: FontAwesome;
+}
+

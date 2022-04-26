@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#prodotti {
+    border: 1px solid black;
+    outline: 2px solid black; 
+    outline-offset: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#prodotti > div  {
+    background-color: orange;
+    padding: 5px;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    40% {background-color: blue;}
+    to {background-color: yellow;}
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    40% {background-color: blue;}
+    to {background-color: yellow;}
+  }

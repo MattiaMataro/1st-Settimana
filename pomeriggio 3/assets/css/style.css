@@ -1,0 +1,51 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 100%;
+}
+main {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.testo_centralizzato {
+    text-align: center;
+}
+header {
+    background-color: lavender;
+    border-bottom: 10px solid midnightblue;
+   
+}
+header h2 {
+    color: midnightblue;
+
+}
+.voto {
+    color: midnightblue;
+}
+.Conoscenze_tecniche{
+    background-color: lavender;
+}
+.conoscenze_operative {
+    background-color: lemonchiffon;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+blockquote {
+    text-align: end;
+    font-style: oblique;
+}
+footer {
+    background-color: midnightblue;
+    border-top: 10px solid lavender;
+    color: white;
+    margin-top: 30x;
+}
+small {
+    font-family: monospace;
+}
+hr {
+    border-top: 1px dashed;
+}

@@ -1,0 +1,11 @@
+.testo_centrato {
+    text-align: center;
+}
+
+body {
+    background-image:url(../images/bg-carta.png) ;
+}
+
+nav ul{
+    display-block:inline;
+}
